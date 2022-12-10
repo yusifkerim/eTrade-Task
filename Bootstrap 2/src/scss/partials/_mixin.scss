@@ -1,0 +1,15 @@
+@mixin wihe ($wth,$hgt,){
+
+    width: $wth;
+    height: $hgt;
+
+
+}
+@mixin img2 ($wth,$hgt,$ob_f,$jus_c){
+
+    width: $wth;
+    height: $hgt;
+    object-fit: $ob_f;
+   justify-content: $jus_c;
+    
+}
